@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "dec",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "param1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param2",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "param1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param2",
+						"type": "uint256"
+					}
+				],
+				"name": "enc",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABI.sol": "ABItest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABI.sol": {
+			"keccak256": "0xa64c35afce87dbaaf3df43b3c8f91700b08c74747e0bb1e0bc52c7fe21198a79",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee29f5d594cde44fb05ce9fcbb510b8382ab258f684191a3dab259fc016ea6b8",
+				"dweb:/ipfs/Qmc7RCrt5w6iQgXftg3p2QutuxyYhvc7i5DSm73vEZ6ofA"
+			]
+		}
+	},
+	"version": 1
+}
